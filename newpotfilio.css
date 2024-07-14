@@ -1,0 +1,236 @@
+body {
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    font-family: math;
+}
+
+:root {
+    scrollbar-color: rgb(244, 243, 243) rgb(20, 25, 27) !important;
+    scrollbar-width: thin !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.outer {}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+    transition: 0.6s;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f8f5f5;
+    height: 70px;
+}
+
+.logo {
+    position: relative;
+    right: 1000px;
+}
+
+.btn img {
+    height: 35px;
+    width: 35px;
+    padding: inherit;
+    position: relative;
+    left: 94px;
+    bottom: 36px;
+    border-radius: 30%;
+}
+
+button {
+    position: relative;
+    right: 30px;
+    margin: 10px;
+    border: none;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(202, 30, 30);
+}
+
+button a {
+    color: rgb(202, 30, 30);
+    border: 0px 0px 0px 0px;
+}
+
+button:hover {
+    background-color: rgb(142, 177, 205);
+    text-decoration: solid;
+    transition: 2s;
+    border-radius: 8px;
+}
+
+@media (max-width:561px) {
+    nav {
+        position: fixed;
+        top: 50px;
+        left: 10;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+
+.holepage {}
+
+.about {
+    height: 767px;
+    border: 1px solid black;
+}
+
+.info {
+    position: relative;
+    left: 330px;
+    bottom: 96px;
+    color: aliceblue;
+    font-size: 24px;
+    display: inline-block;
+}
+
+#skil {
+    height: 965px;
+    border: 1px solid black;
+}
+
+#hiding {
+    text-align: center;
+    font-size: 50px;
+    color: cadetblue;
+    position: relative;
+    top: 30px;
+}
+
+.my {
+    height: 242px;
+    width: 221px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    left: 40px;
+    top: 145px;
+}
+
+.sk {
+    display: inline-block;
+    color: #f8f5f5;
+    position: relative;
+    bottom: 750px;
+    left: 420px;
+    font-size: 40px;
+}
+
+.ski {
+    display: inline-block;
+    color: #f8f5f5;
+    font-size: 40px;
+    position: relative;
+    bottom: 750px;
+    left: 632px;
+}
+
+.sk ul:hover {
+    border-bottom: 2px solid rgb(165, 5, 5);
+}
+
+.ski ul:hover {
+    border-bottom: 2px solid rgb(165, 5, 5);
+}
+
+#Projects {
+    height: 680px;
+    border: 1px solid black;
+    margin-top: -303px;
+}
+
+#cal img {
+    height: 274px;
+    position: relative;
+    left: 294px;
+    top: 48px;
+    border-radius: 10px;
+}
+
+#cal h3 {
+    display: inline;
+    color: #f8f5f5;
+    position: relative;
+    left: 152px;
+    top: 86px;
+}
+
+#QR img {
+    height: 277px;
+    width: 211px;
+    position: relative;
+    left: 653px;
+    bottom: 231px;
+    border-radius: 10px;
+}
+
+#QR h3 {
+    display: inline;
+    color: #f8f5f5;
+    position: relative;
+    left: 490px;
+    bottom: 195px;
+}
+
+.pro h3:hover {
+    border-bottom: 1px solid red;
+}
+
+#num img {
+    height: 277px;
+    width: 211px;
+    position: relative;
+    left: 1026px;
+    bottom: 513px;
+    border-radius: 10px;
+}
+
+#num h3 {
+    display: inline;
+    color: #f8f5f5;
+    position: relative;
+    left: 859px;
+    bottom: 25em;
+}
+
+.pro {
+    position: relative;
+    bottom: 30px;
+}
+
+#Contact {
+    height: 680px;
+    border: 1px solid black;
+    margin-top: 0px;
+}
+
+.data input {
+    display: grid;
+    align-items: center;
+    margin: 15px;
+    height: 40px;
+    width: 290px;
+    position: relative;
+    left: 45em;
+    border-radius: 9px;
+}
+
+#fed {
+    height: 100px;
+}
+
+#send {
+    position: relative;
+    left: 33em;
+    background-color: red;
+    color: #0a0a0a;
+    border-radius: 5px;
+    cursor: pointer;
+}
